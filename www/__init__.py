@@ -30,7 +30,7 @@ def create_app(test_config=None):
 
 	return app
 
-
+app.run('0.0.0.0',port=1210, debug=true)
 def init_keys(app):
 	path = app.config['LAB_HOME_DIR'] + '/' + app.config['KEY_FILE_NAME']
 	if not os.path.exists(path):
