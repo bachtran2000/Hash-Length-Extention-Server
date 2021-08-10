@@ -11,7 +11,8 @@ bp = Blueprint('lab', __name__)
 
 INVALID_KEY = '-1'
 
-app.run(host="0.0.0.0",port=5000,debug=True)
+app.run(host="0.0.0.0",port=1210,debug=True)
+
 @bp.route('/')
 def main():
     # set debug to 1 and show the verbose output
