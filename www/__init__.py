@@ -44,3 +44,7 @@ def init_files(app):
 		f = open(path, 'w')
 		f.write('Congratulations! You get the MAC right.')
 		f.close()
+
+app = create_app()
+
+
